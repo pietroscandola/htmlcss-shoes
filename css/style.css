@@ -1,44 +1,57 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container {
-    width: 100%;
-    margin: 0 auto;
-}
-
-body {
-    font-family: 'Rubik Mono One', sans-serif;
-}
-
-.text-yellow {
-    color: yellow;
-}
-
-.text-green {
-    color: green;
-}
-
-
-/* Shoes */
-
-.shoes1 {
-    width: 100%;
-    height: 100vh;
-    background-color: red;
-    position: relative;
-}
-
-.shoes2 {
-    width: 100%;
-    height: 100vh;
-    background-color: green;
-}
-
-.shoes3 {
-    width: 100%;
-    height: 100%;
-    background-color: yellow;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .container {
+        width: 100vw;
+        margin: 0 auto;
+    }
+    
+    body {
+        font-family: 'Rubik Mono One', sans-serif;
+    }
+    
+    img {
+        height: 300px;
+    }
+    
+    .text-yellow {
+        color: yellow;
+    }
+    
+    .text-green {
+        color: green;
+    }
+    /* Shoes */
+    
+    .shoes1 {
+        width: 100%;
+        height: 100vh;
+        background-color: red;
+        position: relative;
+    }
+    
+    .shoes2 {
+        width: 100%;
+        height: 100vh;
+        background-color: green;
+        position: relative;
+    }
+    
+    .shoes3 {
+        width: 100%;
+        height: 100vh;
+        background-color: yellow;
+        position: relative;
+    }
+    
+    .content {
+        width: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
