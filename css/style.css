@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html {
@@ -41,7 +42,6 @@ a {
     text-decoration: none;
     color: black;
     margin: 0 10px;
-    scroll-behavior: smooth;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
